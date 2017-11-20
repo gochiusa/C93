@@ -2,7 +2,8 @@
   "author": "gomi_ningen <gomi2ngen@gmail.com>",
   "scripts": {
     "lint": "textlint ./src/**.md",
-    "build": "./bin/genicml"
+    "build": "./bin/genicml",
+    "test": "yarn lint && yarn build"
   },
   "devDependencies": {
     "textlint": "^9.1.1",

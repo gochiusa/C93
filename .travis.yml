@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+language: node_js
+node_js:
+  - 7
+sudo: false
+cache: yarn
+before_install:
+  - wget https://github.com/jgm/pandoc/releases/download/2.0.2/pandoc-2.0.2-linux.tar.gz
+  - tar xvzf pandoc-2.0.2-linux.tar.gz
+  - sudo mv pandoc-2.0.2/bin/pandoc /usr/local/bin/
+
