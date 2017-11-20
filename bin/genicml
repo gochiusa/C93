@@ -1,4 +1,5 @@
 #!/bin/sh
 
+rm -fr ./out/**.md
 for i in $(find . -type f | sed -n 's/^.\/src\/\(.*\).md$/\1/p'); do pandoc -s ./src/$i.md -o ./out/$i.icml; done;
 

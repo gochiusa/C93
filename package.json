@@ -1,0 +1,13 @@
+{
+  "author": "gomi_ningen <gomi2ngen@gmail.com>",
+  "scripts": {
+    "lint": "textlint ./src/**.md",
+    "build": "./bin/genicml"
+  },
+  "devDependencies": {
+    "textlint": "^9.1.1",
+    "textlint-rule-max-ten": "^2.0.3",
+    "textlint-rule-no-mix-dearu-desumasu": "^3.0.3",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
