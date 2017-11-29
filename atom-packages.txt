@@ -1,0 +1,2 @@
+markdown-preview-plus@2.4.16
+markdown-scroll-sync@2.1.2

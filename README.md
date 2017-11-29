@@ -16,9 +16,23 @@ brew install pandoc
 yarn install
 ```
 
+if you use Atom
+
+```
+apm install --packages-file atom-packages.txt
+```
+
 ### textlint
 
 ```
 yarn lint
+```
+
+### build
+
+generate .icml files into `./out/`
+
+```
+yarn build
 ```
 
